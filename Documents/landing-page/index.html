@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Sederhana Odin Project</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Roboto', 'sans-serif'],
+                        'serif': ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            orange: '#e85d04',
+                            yellow: '#ffba08',
+                            dark: '#1a1a1a'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 min-h-screen">
+    <div class="bg-gray-900">
+        <header class=" flex justify-between items-center mx-auto max-w-7xl">
+            <div>
+            <img src="./project-1/sawit-xd-removebg-preview.jpg" alt="sawit-xd" class="w-48">
+            </div>
+            <nav class="flex items-center">
+                <ul class="flex flex-row gap-x-8">
+                    <li class="hover:text-white text-orange-800 font-black text-2xl"><a href="#">Menu</a></li>
+                    <li class="hover:text-white text-orange-800 font-black text-2xl"><a href="#">Product</a></li>
+                   <li class="hover:text-white text-orange-800 font-black text-2xl"><a href="#">Catalog</a></li>
+                   <li class="hover:text-white text-orange-800 font-black text-2xl"><a href="#">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+<main>
+    <section class="flex justify-between  mx-auto max-w-7xl min-h-full pt-10 ">
+        <div class="flex justify-between pt-5 ml-4 flex-col my-14">
+                <h1 class="text-5xl font-black text-white">Ini Website Jualan Sawit</h1>
+                <p class="text-base font-medium text-white">kami menjual bahan baku berkualitas jika kalian berminat bisa langsung dicoba</p>
+
+            <div>
+                <button class="rounded-xl bg-blue-500 px-8 py-1.5 hover:text-black mt-7 text-white font-semibold">Sign Up</button>
+            </div>
+        </div>
+
+         <div class="w-96">
+                <img src="./project-1/Sawit.jpg" alt="ini-sawit">
+        </div>
+    </section>
+
+
+    <section class="bg-white min-h-96 mt-16">
+        <div class="flex justify-center pt-12">
+            <h2 class="text-4xl font-bold">Perbandingan Minyak Sawit & Kelapa</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 mx-auto items-center max-w-7xl pb-20 m-10">
+            <div class="border-4 border-orange-400 rounded-lg bg-white mt-10 flex flex-col py-8 px-8 mr-6">
+                <span class="font-medium text-xl text-orange-600 mb-2">Bahan Baku</span>
+                <h2 class="font-semibold text-2xl">Sumber Ekstrasi</h2>
+                <p class="font-normal text-sm mt-2 text-gray-600">
+                    <span class="font-bold text-black">Minyak Sawit: </span>Diekstrak dari daging buah pohon kelapa sawit (*Elaeis guineensis*)
+                </p>
+                <p class="font-normal text-sm mt-2 text-gray-600">
+                    <span class="font-bold text-black">Minyak Kelapa: </span>Diekstrak dari daging buah kelapa tua (*Cocos nucifera*).
+                </p>
+            </div>
+
+
+             <div class="border-4 border-orange-400 rounded-lg bg-white mt-10 flex flex-col py-8 px-8 mr-6">
+                <span class="font-medium text-xl text-green-600 mb-2">Nutrisi</span>
+                <h2 class="font-semibold text-2xl">Sumber Nutrisi</h2>
+                <p class="font-normal text-sm mt-2 text-gray-600">
+                    <span class="font-bold text-black">Minyak Sawit: </span>Memiliki proporsi seimbang antara lemak jenuh dan lemak tak jenuh.
+                </p>
+                <p class="font-normal text-sm mt-2 text-gray-600">
+                    <span class="font-bold text-black">Minyak Kelapa: </span>Didominasi oleh lemak jenuh tinggi, terutama asam laurat yang baik untuk energi..
+                </p>
+            </div>
+
+             <div class="border-4 border-orange-400 rounded-lg bg-white mt-10 flex flex-col py-8 px-8 mr-6">
+                <span class="font-medium text-xl text-orange-600 mb-2">Karakteristik</span>
+                <h2 class="font-semibold text-2xl">Titik Asap</h2>
+                <p class="font-normal text-sm mt-2 text-gray-600">
+                    <span class="font-bold text-black">Minyak Sawit: </span>Titik asap tinggi (~232°C), sangat stabil untuk menggoreng deep-fry.
+                </p>
+                <p class="font-normal text-sm mt-2 text-gray-600">
+                    <span class="font-bold text-black">Minyak Kelapa: </span>Titik asap sedang (~177°C), lebih cocok untuk menumis atau *baking*.
+                </p>
+            </div>
+
+             <div class="border-4 border-orange-400 rounded-lg bg-white mt-10 flex flex-col py-6 px-8 mr-6">
+                <span class="font-medium text-xl text-orange-600 mb-2">Industri</span>
+                <h2 class="font-semibold text-2xl">Penggunaan Utama</h2>
+                <p class="font-normal text-sm mt-2 text-gray-600">
+                    <span class="font-bold text-black">Minyak Sawit: </span>Banyak digunakan pada minyak goreng curah, margarin, dan produk pangan olahan massal.
+                </p>
+                <p class="font-normal text-sm mt-2 text-gray-600">
+                    <span class="font-bold text-black">Minyak Kelapa: </span>Populer untuk produk kecantikan (skincare), diet keto, dan minyak VCO.
+                </p>
+            </div>
+        </div>
+
+        <div class="bg-slate-300 flex flex-col items-center p-28">
+                <div class="p-6">
+                <h3 class="text-slate-900 font-light italic text-3xl">Keberhasilan di industri sawit dibangun di atas fondasi kerja keras</h3>
+                <span class="text-slate-900 font-light italic text-3xl">pemupukan yang tepat, dan strategi agritech yang cerdas.<span>
+                </div>
+                <div class="flex ml-80">
+                <span class="text-slate-800 font-normal text-2xl">-Wowo Widodo</span>
+                </div>
+        </div>
+
+    </section>
+
+    <section class="bg-white py-16 px-4">
+    <div class="max-w-5xl mx-auto bg-blue-600 rounded-xl p-10 flex flex-col md:flex-row justify-between items-center gap-6">
+        
+        <div class="text-white">
+            <h4 class="text-2xl font-bold italic">Call to action! It's time!</h4>
+            <p class="text-blue-100 mt-1">Sign up for our product by clicking that button right over there!</p>
+        </div>
+
+        <div>
+            <button class="border-2 border-white rounded-lg bg-blue-600 hover:bg-blue-700 transition py-2 px-8 text-white font-bold shrink-0"> 
+                Sign up
+            </button>
+        </div>
+    </div>
+</section>
+</main>
+
+ <footer class="flex border-t border-blue-600/50 pt-8 justify-center mb-10">
+    <p class="text-sm text-blue-200/70 ">
+            &copy; 2026 Pondok Teknologi. All rights reserved.
+        </p>  
+ </footer>
+</body>
+</html>
